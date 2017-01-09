@@ -1,4 +1,4 @@
-# Dockerfile for curator — elasticsearch helper for managing indices
+# Curator dockerfile — elasticsearch helper for managing indices
 
 Based on python:alpine image.
 
