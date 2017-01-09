@@ -8,8 +8,8 @@ Default daily task removes indices older then two weeks.
 
 ## Environment vars
 
-* ES_HOST — elasticsearch host
+* ES_HOST — elasticsearch host  
   Default value: `elasticsearch`
 
-* ES_PORT — elasticsearch port
+* ES_PORT — elasticsearch port  
   Default value: `9200`
