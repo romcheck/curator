@@ -1,10 +1,15 @@
-# Curator dockerfile — elasticsearch helper for managing indices
+# Curator — elasticsearch helper for managing indices
 
 Based on python:alpine image.
 
-Tasks are performing by cron. Default daily task removes indices older then two weeks.
+Tasks are performing by cron.
 
-# Environment vars
+Default daily task removes indices older then two weeks.
 
-* ES_HOST — elasticsearch host. default value: `elasticsearch`
-* ES_PORT - elasticsearch port. default value: `9200`
+## Environment vars
+
+* ES_HOST — elasticsearch host
+  Default value: `elasticsearch`
+
+* ES_PORT — elasticsearch port
+  Default value: `9200`
