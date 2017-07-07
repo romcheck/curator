@@ -14,5 +14,5 @@ Default daily task removes indices older then two weeks.
 * ES_PORT — elasticsearch port  
   Default value: `9200`
 
-* ES_DAYS — how many days elasticsearch should keep indeces 
+* ES_DAYS — how many days elasticsearch should keep indeces  
   Default value: `14`
