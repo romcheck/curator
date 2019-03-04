@@ -4,7 +4,7 @@ Based on python:alpine image.
 
 Tasks are performing by cron.
 
-Default daily task removes indices older then two weeks.
+Default daily task removes indices older then two weeks. Kibana indeces are ignored.
 
 ## Environment vars
 
