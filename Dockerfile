@@ -1,6 +1,6 @@
 FROM python:alpine
 
-RUN pip install elasticsearch-curator==5.4.1
+RUN pip install elasticsearch-curator==5.7.5
 
 COPY entrypoint.sh /opt/
 
