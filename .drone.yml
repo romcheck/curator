@@ -1,0 +1,7 @@
+kind: pipeline
+
+steps:
+- name: test-job
+  image: golang
+  commands:
+  - go version
